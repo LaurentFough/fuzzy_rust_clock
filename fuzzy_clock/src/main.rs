@@ -20,7 +20,7 @@ fn get_fuzz(time : (u32, u32, u32)) -> String {
     } else if m < 12.5 {
         return format!("ten past {}", num_to_text(time.0))
     } else if m  < 17.5 {
-        return format!("quater past {}", num_to_text(time.0))
+        return format!("quarter past {}", num_to_text(time.0))
     } else if m < 22.5 {
         return format!("twenty past {}", num_to_text(time.0))
     } else if m < 27.5 {
